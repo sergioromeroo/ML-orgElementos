@@ -1,0 +1,35 @@
+.login main{
+    margin: 5% 30%;
+    padding: 15px 0;
+    background-color: white;
+    border-radius: 20px;
+}
+.login main .form div{
+    text-align: center;
+    margin: 25px;
+}
+.login main .form div .input{
+    border:none;
+    background: var(--color-grisClaro);
+    border-radius: 5px;
+    padding: 5px;
+}
+.login main .form div button{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid var(--color-grisOscuro);
+    background: var(--color-celeste);
+}
+.login main .form div button:hover{
+    background-color: #0022AA;
+}
+.login main .form div button a{
+    text-decoration: none;
+    color:#fff
+}
+@media (max-width:480px){
+    .login main .form div .input{
+        width: 110px;
+    }   
+}

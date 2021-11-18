@@ -1,0 +1,45 @@
+.register main{
+    margin: 5% 15%;
+    padding: 15px 0;
+    background-color: white;
+    border-radius: 20px;
+}
+.register main .form div{
+    text-align: center;
+    margin: 25px;
+}
+.register main .form div .input{
+    border:none;
+    background: var(--color-grisClaro);
+    border-radius: 5px;
+    padding: 5px;
+}
+.register main .form div .perfil{
+    display: block;
+} 
+.register main .form div .opcion{
+    display: inline-block;
+}
+.register main .form .botones {
+    display: flex;
+    justify-content: space-evenly;
+}
+.register main .form .botones button{
+    width: 55px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid var(--color-grisOscuro);
+}
+.register main .form .botones button a{
+    text-decoration: none;
+    color: #fff;
+}
+.register main .form .botones .enviar{
+    background: var(--color-celeste);
+}
+@media (max-width:480px){
+    .register main .form .foto .input{
+        width: 150px;
+    
+    }
+}
