@@ -1,7 +1,7 @@
 /*HEADER*/
 .header{
     background-color: var(--color-amarillo);
-    height: 40vh;
+    height: 21vh;
 }
 .header .logo-buscador{
     display: flex;
@@ -61,8 +61,9 @@
     text-align: center;
 }
 .home .main .banner{
-    height: 150px;
+    height: 100%;
     width: 100%;
+    object-fit: contain;
 }
 .home .main .titulares{
     font-size: 24px;
